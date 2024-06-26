@@ -148,9 +148,7 @@ export default async function Work() {
         title="Proven solutions for real-world problems."
       >
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+        At UNOREC, we focus on proven solutions for real-world problems. We believe in efficiency and maximizing our resources to provide the best value to those we serve. Over the past decade, we have honed five core projects: vocational training, combating child abuse, advocating for human rights, promoting sustainable farming, and empowering vulnerable populations. By consistently developing and refining these projects, we ensure impactful and sustainable change in our communities, helping individuals build better futures.
         </p>
       </PageIntro>
 
