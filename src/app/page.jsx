@@ -62,7 +62,6 @@ function CaseStudies({ caseStudies }) {
         title="UNOREC Activity Report"
         className="mt-24 sm:mt-32 lg:mt-40"
       >
-        
         <p>
           UNOREC is dedicated to fostering professional growth and advocating
           for human rights through strategic partnerships with leading
@@ -107,7 +106,9 @@ function CaseStudies({ caseStudies }) {
                 <p className="mt-4 text-base text-neutral-600">
                   {caseStudy.description}
                 </p>
-                <button className="bg-black bottom-1 text-white rounded-md w-40">learn more</button>
+                <button className="bg-black bottom-1 text-white rounded-md w-40">
+                  learn more
+                </button>
               </article>
             </FadeIn>
           ))}
@@ -126,8 +127,8 @@ function Services() {
         className="mt-24 sm:mt-32 lg:mt-40"
       >
         <p>
-          As long as those opportunities involve giving us money to re-purpose
-          old projects — we can come up with an endless number of those.
+          Our focus is equipping the community with the right tools and
+          knowledge to effect meaningful change.
         </p>
       </SectionIntro>
       <Container className="mt-16">
@@ -142,24 +143,20 @@ function Services() {
             </FadeIn>
           </div>
           <List className="mt-16 lg:mt-0 lg:w-1/2 lg:min-w-[33rem] lg:pl-4">
-            <ListItem title="Web development">
-              We specialise in crafting beautiful, high quality marketing pages.
-              The rest of the website will be a shell that uses lorem ipsum
-              everywhere.
+            <ListItem title="Community Development">
+              As an integral approach to adult education encompassing the
+              spheres of family,health,agriculture,crafts,trades and culture
             </ListItem>
-            <ListItem title="Application development">
-              We have a team of skilled developers who are experts in the latest
-              app frameworks, like Angular 1 and Google Web Toolkit.
+            <ListItem title="Agriculture">
+              Agriculture being the main stream of income ,our activities in
+              this domain are concerntrated on both sustainable agriculture and
+              environmental protection
             </ListItem>
-            <ListItem title="E-commerce">
-              We are at the forefront of modern e-commerce development. Which
-              mainly means adding your logo to the Shopify store template we’ve
-              used for the past six years.
+            <ListItem title="computer education and research">
+              We are aiming to reduce poverty by providing proper technology skills to thrive in todays digital age
             </ListItem>
-            <ListItem title="Custom content management">
-              At Studio we understand the importance of having a robust and
-              customised CMS. That’s why we run all of our client projects out
-              of a single, enormous Joomla instance.
+            <ListItem title="Human rights and protection">
+              We are providing the community with free legal advice and defending victims in critical condition. Improving the life of internally displaced persons with outreach and charity
             </ListItem>
           </List>
         </div>
@@ -207,9 +204,9 @@ export default async function Home() {
           logo: logoGreenLife,
         }}
       >
-        At UNOREC, we collaborate with top-tier training centers
-        specializing in vocational education and prominent human rights centers.
-        Our partnerships are founded on shared visions and a commitment to
+        At UNOREC, we collaborate with top-tier training centers specializing in
+        vocational education and prominent human rights centers. Our
+        partnerships are founded on shared visions and a commitment to
         professionalism. Together, we leverage the expertise of great minds to
         drive forward our common goals.
       </Testimonial>
