@@ -32,16 +32,13 @@ function Culture() {
       <Container className="mt-16">
         <GridList>
           <GridListItem title="Loyalty" invert>
-            Our team has been with us since the beginning because none of them
-            are allowed to have LinkedIn profiles.
+            Our team put trust and transparency at core of every Activity.
           </GridListItem>
-          <GridListItem title="Trust" invert>
-            We don’t care when our team works just as long as they are working
-            every waking second.
+          <GridListItem title="passion" invert>
+            We beleive in ourselve and how much we can change world .
           </GridListItem>
           <GridListItem title="Compassion" invert>
-            You never know what someone is going through at home and we make
-            sure to never find out.
+            You never know what people are going through  unless you reach out.
           </GridListItem>
         </GridList>
       </Container>
@@ -160,29 +157,22 @@ export default async function About() {
     <>
       <PageIntro eyebrow="About us" title="Our strength is collaboration">
         <p>
-          We believe that our strength lies in our collaborative approach, which
-          puts our clients at the center of everything we do.
+          UNOREC is a registered Non profit, Charitable and Humanitarian Non-Governmental Organisation for non-formal, extensive, distance and vocational education and development, with concerntration on activities to promote community development, Agriculture, education/research and charity/welfare in southwest province in particular and the nation cameroon as  whole
         </p>
         <div className="mt-10 max-w-2xl space-y-6 text-base">
           <p>
-            Studio was started by three friends who noticed that developer
-            studios were charging clients double what an in-house team would
-            cost. Since the beginning, we have been committed to doing things
-            differently by charging triple instead.
+            It is a service organisation for grassroots education and development and daily concerntration is on services to serve a group of less represented,unprivileged,miserable,poor individuals, families and communitiesin the country.We are dedicated to serve these target groups in both rural and urban communities and renders services mainly on nonprofit.
           </p>
           <p>
-            At Studio, we’re more than just colleagues — we’re a family. This
-            means we pay very little and expect people to work late. We want our
-            employees to bring their whole selves to work. In return, we just
-            ask that they keep themselves there until at least 6:30pm.
+            In addition, UNOREC is serving as a support organisation in the development, charitable and Humanitarian assistance processes of our local and less represented group
           </p>
         </div>
       </PageIntro>
       <Container className="mt-16">
         <StatList>
-          <StatListItem value="35" label="Underpaid employees" />
-          <StatListItem value="52" label="Placated clients" />
-          <StatListItem value="$25M" label="Invoices billed" />
+          <StatListItem value="35" label="Projects" />
+          <StatListItem value="10" label="Executed" />
+          <StatListItem value="62%" label="Success rate" />
         </StatList>
       </Container>
 
@@ -192,8 +182,7 @@ export default async function About() {
 
       <PageLinks
         className="mt-24 sm:mt-32 lg:mt-40"
-        title="From the blog"
-        intro="Our team of experienced designers and developers has just one thing on their mind; working on your ideas to draw a smile on the face of your users worldwide. From conducting Brand Sprints to UX Design."
+        title="We can help"
         pages={blogArticles}
       />
 
