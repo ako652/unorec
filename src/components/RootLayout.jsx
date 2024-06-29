@@ -171,6 +171,7 @@ function RootLayoutInner({ children }) {
   }, []);
 
   return (
+    <>
     <MotionConfig transition={shouldReduceMotion ? { duration: 0 } : undefined}>
       <header>
         <div
@@ -263,6 +264,7 @@ function RootLayoutInner({ children }) {
         </motion.div>
       </motion.div>
     </MotionConfig>
+    </>
   );
 }
 

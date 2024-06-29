@@ -47,26 +47,9 @@ function Discover() {
   return (
     <Section title="Discover" image={{ src: imageWhiteboard }}>
       <div className="space-y-6 text-base text-neutral-600">
-        <p>
-          We work closely with our clients to understand their{' '}
-          <strong className="font-semibold text-neutral-950">needs</strong> and
-          goals, embedding ourselves in their every day operations to understand
-          what makes their business tick.
-        </p>
-        <p>
-          Our team of private investigators shadow the company director’s for
-          several weeks while our account managers focus on going through their
-          trash. Our senior security experts then perform social engineering
-          hacks to gain access to their{' '}
-          <strong className="font-semibold text-neutral-950">business</strong>{' '}
-          accounts — handing that information over to our forensic accounting
-          team.
-        </p>
-        <p>
-          Once the full audit is complete, we report back with a comprehensive{' '}
-          <strong className="font-semibold text-neutral-950">plan</strong> and,
-          more importantly, a budget.
-        </p>
+        <p>Our team is deeply involved with the community to identify and address cases that genuinely require our services. We collaborate closely with local residents, organizations, and authorities to understand the specific needs and challenges faced by individuals and families. In addition to community engagement, we conduct our own rigorous investigations. We monitor various sources such as media reports, social media platforms, hospitals, and prisons to identify vulnerable individuals and situations requiring urgent humanitarian intervention. This proactive approach enables us to swiftly respond to crises and provide timely support where it is most needed, ensuring that our humanitarian efforts are effective and impactful. </p>
+        <p>At the core of our mission is a commitment to reaching out to those who are most in need of assistance. By combining community insights with our investigative efforts, we ensure that no vulnerable individual or group is overlooked. Our goal is to uphold the principles of compassion and justice, advocating for and delivering humanitarian services that make a meaningful difference in the lives of those facing hardship and adversity. Through these collaborative and proactive measures, we strive to foster a supportive environment where every person receives the care and support they deserve.</p>
+
       </div>
 
       <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
@@ -75,10 +58,10 @@ function Discover() {
       <TagList className="mt-4">
         <TagListItem>In-depth questionnaires</TagListItem>
         <TagListItem>Feasibility studies</TagListItem>
-        <TagListItem>Blood samples</TagListItem>
-        <TagListItem>Employee surveys</TagListItem>
-        <TagListItem>Proofs-of-concept</TagListItem>
-        <TagListItem>Forensic audit</TagListItem>
+        <TagListItem>investigaions</TagListItem>
+        <TagListItem>Public organisations</TagListItem>
+        <TagListItem>Media </TagListItem>
+        
       </TagList>
     </Section>
   )
@@ -89,33 +72,17 @@ function Build() {
     <Section title="Build" image={{ src: imageLaptop, shape: 1 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          Based off of the discovery phase, we develop a comprehensive roadmap
-          for each product and start working towards delivery. The roadmap is an
-          intricately tangled mess of technical nonsense designed to drag the
-          project out as long as possible.
+          Based on our initial assessment phase, we create a detailed plan tailored to address your specific needs and challenges. Our team collaborates closely with you and our partners to establish clear objectives and break them down into manageable tasks. This approach ensures that we can efficiently achieve success based on the unique circumstances of each case we encounter.
+
         </p>
         <p>
-          Each client is assigned a key account manager to keep lines of
-          communication open and obscure the actual progress of the project.
-          They act as a buffer between the client’s incessant nagging and the
-          development team who are hard at work scouring open source projects
-          for code to re-purpose.
+          By setting clear goals and working collaboratively with our partners, we maximize the effectiveness of our efforts. This structured approach allows us to adapt quickly and deliver meaningful results that meet your needs. Our commitment to practical, achievable steps ensures that we make tangible progress in resolving your challenges and achieving our shared objectives.
+
         </p>
-        <p>
-          Our account managers are trained to only reply to client emails after
-          9pm, several days after the initial email. This reinforces the general
-          aura that we are very busy and dissuades clients from asking for
-          changes.
-        </p>
+        
       </div>
 
-      <Blockquote
-        author={{ name: 'Debra Fiscal', role: 'CEO of Unseal' }}
-        className="mt-12"
-      >
-        Studio were so regular with their progress updates we almost began to
-        think they were automated!
-      </Blockquote>
+     
     </Section>
   )
 }
@@ -125,51 +92,17 @@ function Deliver() {
     <Section title="Deliver" image={{ src: imageMeeting, shape: 2 }}>
       <div className="space-y-6 text-base text-neutral-600">
         <p>
-          About halfway through the Build phase, we push each project out by 6
-          weeks due to a change in{' '}
-          <strong className="font-semibold text-neutral-950">
-            requirements
-          </strong>
-          . This allows us to increase the budget a final time before launch.
+                We extend our outreach globally to individuals and organizations who share our common vision. Whether you bring us your challenges or need specific equipment for your reintegration, we are here to help. Each project we undertake is meticulously documented and shared across social media platforms to reach a broader audience in need of assistance.
+
+          
         </p>
         <p>
-          Despite largely using pre-built components, most of the{' '}
-          <strong className="font-semibold text-neutral-950">progress</strong>{' '}
-          on each project takes place in the final 24 hours. The development
-          time allocated to each client is actually spent making augmented
-          reality demos that go viral on social media.
+
+By connecting with like-minded people around the world, we aim to amplify our impact and support those facing difficulties. Whether its through providing necessary resources or sharing success stories, our goal is to inspire and empower others to join us in making a positive difference. Through transparent communication and widespread dissemination of our projects, we strive to foster a community of support and collaboration, ensuring that help reaches as many individuals as possible who are in need of assistance.
         </p>
-        <p>
-          We ensure that the main pages of the site are{' '}
-          <strong className="font-semibold text-neutral-950">
-            fully functional
-          </strong>{' '}
-          at launch — the auxiliary pages will, of course, be lorem ipusm shells
-          which get updated as part of our exorbitant{' '}
-          <strong className="font-semibold text-neutral-950">
-            maintenance
-          </strong>{' '}
-          retainer.
-        </p>
+       
       </div>
 
-      <h3 className="mt-12 font-display text-base font-semibold text-neutral-950">
-        Included in this phase
-      </h3>
-      <List className="mt-8">
-        <ListItem title="Testing">
-          Our projects always have 100% test coverage, which would be impressive
-          if our tests weren’t as porous as a sieve.
-        </ListItem>
-        <ListItem title="Infrastructure">
-          To ensure reliability we only use the best Digital Ocean droplets that
-          $4 a month can buy.
-        </ListItem>
-        <ListItem title="Support">
-          Because we hold the API keys for every critical service your business
-          uses, you can expect a lifetime of support, and invoices, from us.
-        </ListItem>
-      </List>
     </Section>
   )
 }
@@ -232,7 +165,7 @@ function Values() {
 export const metadata = {
   title: 'Our Process',
   description:
-    'We believe in efficiency and maximizing our resources to provide the best value to our clients.',
+    'We are committed to helping those truly in need of assistance, ensuring we reach out to the right people.',
 }
 
 export default function Process() {
@@ -240,9 +173,7 @@ export default function Process() {
     <>
       <PageIntro eyebrow="Our process" title="How we work">
         <p>
-          We believe in efficiency and maximizing our resources to provide the
-          best value to our clients. The primary way we do that is by re-using
-          the same five projects we’ve been developing for the past decade.
+          We are committed to helping those truly in need of assistance, ensuring we reach out to the right people.
         </p>
       </PageIntro>
 
@@ -252,7 +183,7 @@ export default function Process() {
         <Deliver />
       </div>
 
-      <Values />
+      {/* <Values /> */}
 
       <ContactSection />
     </>
